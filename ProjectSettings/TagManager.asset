@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Floor
+  - Player
   - 
   - 
   - 
@@ -38,6 +38,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG Layer 1
+    uniqueID: 3075264745
+    locked: 0
+  - name: BG Layer 2
+    uniqueID: 40229683
+    locked: 0
+  - name: BG layer 4
+    uniqueID: 1261061851
+    locked: 0
+  - name: BG Layer 5
+    uniqueID: 4255700949
+    locked: 0
+  - name: floor
+    uniqueID: 3215200087
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
