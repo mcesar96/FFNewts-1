@@ -6,14 +6,16 @@ public class PlayerController : PhysicsObject
 {
     public float maxSpeed = 10;
 
-    //private Rigidbody2D rb2d;
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
 
-    // Start is called before the first frame update
-    void Start()
+
+    void Awake()
     {
-        //Get and store a reference to the Rigidbody2D component so that we can access it.
-        //rb2d = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer> ();
+        animator = GetComponent<Animator> ();
     }
+
 
     // Update is called once per frame
     protected override void ComputeVelocity()
@@ -21,6 +23,15 @@ public class PlayerController : PhysicsObject
         Vector2 move = Vector2.zero;
 
         move.x = Input.GetAxis("Horizontal");
+
+        bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
+        if(flipSprite)
+        {
+            spriteRenderer.flipX = !spriteRenderer.flipX;
+        }
+
+        animator.SetBool("grounded", grounded);
+        animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
 
         targetVelocity = move * maxSpeed;
     }
