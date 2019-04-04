@@ -8,7 +8,7 @@ public class PlayerController : PhysicsObject
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
-   // public KeyCode run1;
+
 
     void Awake()
     {
@@ -21,30 +21,22 @@ public class PlayerController : PhysicsObject
     protected override void ComputeVelocity()
     {
         Vector2 move = Vector2.zero;
-        /*
-        if (Input.GetKeyDown(run1))
-        {
-            animator.SetTrigger("NewtMove");
-        }
-        */
-        move.x = Input.GetAxis("Horizontal");   // look up docs for unity object 
-                                                // if 0 do idle animation
-                                                // else do other animation
 
-        if (move.x == 0)
+        move.x = Input.GetAxis("Horizontal");
+
+        if (move.x != 0)
         {
-            animator.SetTrigger("NewtMove");
-        }
-      
-        bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
-        if(flipSprite)
-        {
-            spriteRenderer.flipX = !spriteRenderer.flipX;
+            bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
+            if (flipSprite)
+            {
+                spriteRenderer.flipX = !spriteRenderer.flipX;
+            }
+
+            animator.SetBool("grounded", grounded);
+            animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
+
+            targetVelocity = move * maxSpeed;
         }
 
-        animator.SetBool("grounded", grounded);
-        animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
-
-        targetVelocity = move * maxSpeed;
     }
 }
