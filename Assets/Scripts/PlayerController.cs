@@ -24,7 +24,7 @@ public class PlayerController : PhysicsObject
 
         move.x = Input.GetAxis("Horizontal");
 
-        if (move.x >= -0.60f && move.x <= 0.60f) //if (move.x > 0.01f || move.x < 0.01f)
+        if (move.x >= -0.60f && move.x <= 0.60f) // horizontal movement on axis
             animator.SetBool("isRunning", false);
         else
         {
