@@ -2,10 +2,14 @@ fileFormatVersion: 2
 guid: 0188ec438976e5849b40a2c1ce5f20f9
 timeCreated: 1491603973
 <<<<<<< HEAD
+<<<<<<< HEAD
 licenseType: Free
 =======
 licenseType: Store
 >>>>>>> development
+=======
+licenseType: Store
+>>>>>>> marcus_dev
 TextScriptImporter:
   userData:
   assetBundleName:

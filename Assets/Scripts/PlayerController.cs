@@ -12,8 +12,8 @@ public class PlayerController : PhysicsObject
 
     void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer> ();
-        animator = GetComponent<Animator> ();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
 
@@ -24,15 +24,24 @@ public class PlayerController : PhysicsObject
 
         move.x = Input.GetAxis("Horizontal");
 
-        bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
-        if(flipSprite)
+        if (move.x >= -0.60f && move.x <= 0.60f) // horizontal movement on axis
+            animator.SetBool("isRunning", false);
+        else
         {
-            spriteRenderer.flipX = !spriteRenderer.flipX;
+            animator.SetBool("isRunning", true);
+ 
+            animator = GetComponent<Animator>();
+
+            bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f)); // flip sprite?
+            if (flipSprite)                                                // flip sprite.
+            {
+                spriteRenderer.flipX = !spriteRenderer.flipX;
+            }
+
+            //animator.SetBool("grounded", grounded); 
+            //animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
+
+            targetVelocity = move * maxSpeed;
         }
-
-        animator.SetBool("grounded", grounded);
-        animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
-
-        targetVelocity = move * maxSpeed;
     }
 }

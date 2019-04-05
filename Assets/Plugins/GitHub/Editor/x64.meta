@@ -3,10 +3,14 @@ guid: a0ded7adcc817ce489fec07977f16d13
 folderAsset: yes
 timeCreated: 1493304320
 <<<<<<< HEAD
+<<<<<<< HEAD
 licenseType: Pro
 =======
 licenseType: Store
 >>>>>>> development
+=======
+licenseType: Store
+>>>>>>> marcus_dev
 DefaultImporter:
   userData:
   assetBundleName:
