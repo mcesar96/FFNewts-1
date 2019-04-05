@@ -24,7 +24,7 @@ public class PlayerController : PhysicsObject
 
         move.x = Input.GetAxis("Horizontal");
 
-        if (move.x == 0) //if (move.x > 0.01f || move.x < 0.01f)
+        if (move.x >= -0.60f && move.x <= 0.60f) //if (move.x > 0.01f || move.x < 0.01f)
             animator.SetBool("isRunning", false);
         else
         {
@@ -32,14 +32,14 @@ public class PlayerController : PhysicsObject
  
             animator = GetComponent<Animator>();
 
-            bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
-            if (flipSprite)
+            bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f)); // flip sprite?
+            if (flipSprite)                                                // flip sprite.
             {
                 spriteRenderer.flipX = !spriteRenderer.flipX;
             }
 
-            animator.SetBool("grounded", grounded);
-            animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
+            //animator.SetBool("grounded", grounded); 
+            //animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
 
             targetVelocity = move * maxSpeed;
         }
