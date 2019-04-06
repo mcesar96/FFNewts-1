@@ -4,18 +4,21 @@ using UnityEngine;
 
 public class PlayerController : PhysicsObject
 {
+    public float speed;
     public float maxSpeed = 10;
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
 
+    //public Vector2 screenHalfSize; // for boundaries
+    //private Rigidbody rb;
 
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
     }
-
+ 
 
     // Update is called once per frame
     protected override void ComputeVelocity()
