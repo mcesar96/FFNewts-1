@@ -1,5 +1,29 @@
 fileFormatVersion: 2
 guid: 636d33ae594884e7d80b569f429d245d
+<<<<<<< HEAD
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+  - first:
+      Any: 
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 1
+      settings:
+        DefaultValueInitialized: true
+=======
 timeCreated: 1503667182
 licenseType: Store
 PluginImporter:
@@ -101,6 +125,7 @@ PluginImporter:
         enabled: 0
         settings:
           CPU: AnyCPU
+>>>>>>> marcus_dev
   userData: 
   assetBundleName: 
   assetBundleVariant: 
