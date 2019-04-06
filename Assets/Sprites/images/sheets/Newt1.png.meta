@@ -1,31 +1,55 @@
 fileFormatVersion: 2
-guid: 8470fb3407efb10448fefa10e1c723d2
+guid: 4bd4e8c40b0bb984199528228cacb219
 TextureImporter:
   fileIDToRecycleName:
-    21300000: idle1
-    21300002: idle2
-    21300004: idle3
-    21300006: idle4
-    21300008: walk1
-    21300010: walk2
-    21300012: jump1
-    21300014: jump2
-    21300016: jump3
-    21300018: jump4
-    21300020: jump5
-    21300022: kick1
-    21300024: kick2
-    21300026: kick3
-    21300028: hurt1
-    21300030: hurt2
-    21300032: hurt3
-    21300034: run1
-    21300036: run2
-    21300038: run3
-    21300040: run4
-    21300042: run5
-    21300044: run6
-    21300046: run7
+    21300000: DinoSprites - mort_0
+    21300002: DinoSprites - mort_1
+    21300004: DinoSprites - mort_2
+    21300006: DinoSprites - mort_3
+    21300008: DinoSprites - mort_4
+    21300010: DinoSprites - mort_5
+    21300012: DinoSprites - mort_6
+    21300014: DinoSprites - mort_7
+    21300016: DinoSprites - mort_8
+    21300018: DinoSprites - mort_9
+    21300020: DinoSprites - mort_10
+    21300022: DinoSprites - mort_11
+    21300024: DinoSprites - mort_12
+    21300026: DinoSprites - mort_13
+    21300028: DinoSprites - mort_14
+    21300030: DinoSprites - mort_15
+    21300032: DinoSprites - mort_16
+    21300034: DinoSprites - mort_17
+    21300036: DinoSprites - mort_18
+    21300038: DinoSprites - mort_19
+    21300040: DinoSprites - mort_20
+    21300042: DinoSprites - mort_21
+    21300044: DinoSprites - mort_22
+    21300046: DinoSprites - mort_23
+    21300048: Newt1_0
+    21300050: Newt1_1
+    21300052: Newt1_2
+    21300054: Newt1_3
+    21300056: Newt1_4
+    21300058: Newt1_5
+    21300060: Newt1_6
+    21300062: Newt1_7
+    21300064: Newt1_8
+    21300066: Newt1_9
+    21300068: Newt1_10
+    21300070: Newt1_11
+    21300072: Newt1_12
+    21300074: Newt1_13
+    21300076: Newt1_14
+    21300078: Newt1_15
+    21300080: Newt1_16
+    21300082: Newt1_17
+    21300084: Newt1_18
+    21300086: Newt1_19
+    21300088: Newt1_20
+    21300090: Newt1_21
+    21300092: Newt1_22
+    21300094: Newt1_23
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -84,8 +108,8 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
-    resizeAlgorithm: 1
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -95,8 +119,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 1024
-    resizeAlgorithm: 1
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -106,8 +130,8 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: iPhone
-    maxTextureSize: 1024
-    resizeAlgorithm: 1
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -119,7 +143,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle1
+      name: Newt1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -133,13 +157,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06444202c036dff4fb454f460bd51c09
+      spriteID: 2303e323d5091d24da4a7820ea56deb2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle2
+      name: Newt1_1
       rect:
         serializedVersion: 2
         x: 24
@@ -153,13 +177,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dd10ff55db30eb4488b51b333f8fe7d
+      spriteID: 86d4a1ecfb502c748962f006c07ac413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle3
+      name: Newt1_2
       rect:
         serializedVersion: 2
         x: 48
@@ -173,13 +197,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d6fdd4e69f88df4a836eca85d1425c1
+      spriteID: d4de94dd2d96bd24d90a9fff125fb044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle4
+      name: Newt1_3
       rect:
         serializedVersion: 2
         x: 72
@@ -193,13 +217,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9c8fe8b6655d6248b43094869f469c4
+      spriteID: a8c2e3c498a4ded47a13dfe90fcbbed6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk1
+      name: Newt1_4
       rect:
         serializedVersion: 2
         x: 96
@@ -213,13 +237,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0666e29005291cd478ec461b23cf1f1d
+      spriteID: a52584b271958594ba55772b67c77827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk2
+      name: Newt1_5
       rect:
         serializedVersion: 2
         x: 120
@@ -233,13 +257,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ada12cf190123434a93aac6e69452769
+      spriteID: dced808b679b5ef4dbe45de64da6ab8b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump1
+      name: Newt1_6
       rect:
         serializedVersion: 2
         x: 144
@@ -253,13 +277,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 109d1cd611240954088c7c2e308433d7
+      spriteID: 79ba04eeefb73e94fb2d5e3b46a9f53d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump2
+      name: Newt1_7
       rect:
         serializedVersion: 2
         x: 168
@@ -273,13 +297,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eca585a9579b770479a0ad9c09a47567
+      spriteID: dc387775721b76d49829910b4e6fc9b9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump3
+      name: Newt1_8
       rect:
         serializedVersion: 2
         x: 192
@@ -293,13 +317,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a6cda120774d064cbf0e42c5386845a
+      spriteID: 53de4c5ba5eb95c428a098a9377783f4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump4
+      name: Newt1_9
       rect:
         serializedVersion: 2
         x: 216
@@ -313,13 +337,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 143302b5b6accf84aa357d652e14eafa
+      spriteID: 4946455471a9fbb4289a91d492e19c90
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: jump5
+      name: Newt1_10
       rect:
         serializedVersion: 2
         x: 240
@@ -333,13 +357,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aabfcd6915b8fb743a3ce3cb7daa4c5a
+      spriteID: 16d904c956c7e464a8b672f40723c016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kick1
+      name: Newt1_11
       rect:
         serializedVersion: 2
         x: 264
@@ -353,13 +377,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 797075e5b94586049b0f472221318380
+      spriteID: 69b57c940ab742d45a006e771a7a29a9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kick2
+      name: Newt1_12
       rect:
         serializedVersion: 2
         x: 288
@@ -373,13 +397,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fc79047bc20b034ea1d9eab56d6da64
+      spriteID: e80019e7d8e39b64386ed8a7c6e5f8c4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kick3
+      name: Newt1_13
       rect:
         serializedVersion: 2
         x: 312
@@ -393,13 +417,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc4eb4a5daf1e0249b37e240e0dfe5f9
+      spriteID: fe79f9190a862ed4f8769e58bfba6867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hurt1
+      name: Newt1_14
       rect:
         serializedVersion: 2
         x: 336
@@ -413,13 +437,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7728d83ebb8de64298a075c318a41aa
+      spriteID: b2bd63875d984154c804982440c1e03a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hurt2
+      name: Newt1_15
       rect:
         serializedVersion: 2
         x: 360
@@ -433,13 +457,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 614cdb5254265ab47b9ccc84ad07e376
+      spriteID: f764fb213de1c43479c7237dde4b64fb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hurt3
+      name: Newt1_16
       rect:
         serializedVersion: 2
         x: 384
@@ -453,13 +477,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4901811c56cdbd4c83d59b89c6edefc
+      spriteID: 52e0ff547ad8d1f4da59819c85e21d15
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run1
+      name: Newt1_17
       rect:
         serializedVersion: 2
         x: 408
@@ -473,13 +497,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a27ba944885db4f4abde2490025146fa
+      spriteID: 659345a03b55be0468929ade95ad5307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run2
+      name: Newt1_18
       rect:
         serializedVersion: 2
         x: 432
@@ -493,13 +517,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7af6e737656b64446a99d06b978225ac
+      spriteID: 6dae56b7463128c4b8284306542fa8a1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run3
+      name: Newt1_19
       rect:
         serializedVersion: 2
         x: 456
@@ -513,13 +537,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c5837466d07dd746a5cc5f732335c7d
+      spriteID: ed84b7ce0f6e99347a7e84c78ff6468b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run4
+      name: Newt1_20
       rect:
         serializedVersion: 2
         x: 480
@@ -533,13 +557,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15488aab149c1e74c995599d15d01b07
+      spriteID: 742ef6323cf2bf640850cd63a3ba9b15
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run5
+      name: Newt1_21
       rect:
         serializedVersion: 2
         x: 504
@@ -553,13 +577,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 740f5b8aa54618b45aeaff20d0e6355d
+      spriteID: a1e6f3ff66787994dab304f38ee27275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run6
+      name: Newt1_22
       rect:
         serializedVersion: 2
         x: 528
@@ -573,13 +597,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5b64d5daa7631e4c9447148e0bdc33c
+      spriteID: e444cc3d87c424747bf8e98b92954826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run7
+      name: Newt1_23
       rect:
         serializedVersion: 2
         x: 552
@@ -593,7 +617,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24dae5fe2872a494a8af60228efc1517
+      spriteID: 66f095b37a7bb814787093758572cf78
       vertices: []
       indices: 
       edges: []
@@ -601,7 +625,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c653bcb3b55baec4690ec6895e147b87
+    spriteID: 9680a40de3fab9c4084475c2ccab8ce3
     vertices: []
     indices: 
     edges: []
