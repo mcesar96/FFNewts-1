@@ -14,18 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
-  - {fileID: 8}
+  - {fileID: 7}
   - {fileID: 17}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 950
-    height: 732
+    height: 736
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 2965
+  controlID: 1658
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -34,78 +34,27 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+    m_Text: Animation
+    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 490
-    y: 75
-    width: 467
-    height: 438
+    x: 0
+    y: 566
+    width: 200
+    height: 225
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_WindowGUID: 3e572341f2fcd5045973d6055df996a7
-  m_SceneLighting: 1
-  m_2DMode: 1
-  m_isRotationLocked: 0
-  m_AudioPlay: 0
-  m_Position:
-    m_Target: {x: 1.1994308, y: 1.9103048, z: -0.34969002}
-    speed: 2
-    m_Value: {x: 1.1994308, y: 1.9103048, z: -0.34969002}
-  m_RenderMode: 0
-  m_CameraMode:
-    drawMode: 0
-    name: Shaded
-    section: Shading Mode
-  m_ValidateTrueMetals: 0
-  m_SceneViewState:
-    showFog: 0
-    showMaterialUpdate: 0
-    showSkybox: 0
-    showFlares: 0
-    showImageEffects: 0
-    showParticleSystems: 0
-  grid:
-    xGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-  m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
-  m_Size:
-    m_Target: 19.717577
-    speed: 2
-    m_Value: 19.717577
-  m_Ortho:
-    m_Target: 1
-    speed: 2
-    m_Value: 1
-  m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -5512
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,11 +75,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 202
-    height: 732
+    height: 736
   m_MinSize: {x: 202, y: 348}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 2998
+  controlID: 1659
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +98,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 202
-    height: 488
+    height: 491
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 5}
@@ -178,17 +127,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 288
+    x: 0
     y: 75
     width: 200
-    height: 468
+    height: 471
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fe320000
-      m_LastClickedID: 13054
-      m_ExpandedIDs: 42f5ffff90f5ffffbef7ffff0cf8ffffd4fbffffd6fbffff
+      m_SelectedIDs: 78eaffff
+      m_LastClickedID: -5512
+      m_ExpandedIDs: d6fbfffffa2b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -228,46 +177,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 488
+    y: 491
     width: 202
-    height: 244
-  m_MinSize: {x: 102, y: 124}
-  m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 7}
+    height: 245
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 2}
   m_Panes:
-  - {fileID: 7}
+  - {fileID: 2}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animation
-    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 288
-    y: 563
-    width: 200
-    height: 224
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_LockTracker:
-    m_IsLocked: 0
-  m_LastSelectedObjectID: 13054
---- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -280,19 +200,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
+  - {fileID: 8}
   - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 202
     y: 0
     width: 471
-    height: 732
+    height: 736
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 2966
---- !u!114 &9
+  controlID: 1641
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -310,18 +230,98 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 471
-    height: 458
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 2}
+    height: 462
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
+  m_ActualView: {fileID: 9}
   m_Panes:
-  - {fileID: 2}
+  - {fileID: 9}
   - {fileID: 10}
   - {fileID: 11}
   - {fileID: 12}
   - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 4
+  m_LastSelected: 3
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 202
+    y: 75
+    width: 467
+    height: 442
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_WindowGUID: 3e572341f2fcd5045973d6055df996a7
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: -4.581605, y: -0.40422186, z: 18.387938}
+    speed: 2
+    m_Value: {x: -4.581605, y: -0.40422186, z: 18.387938}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 0
+    showMaterialUpdate: 0
+    showSkybox: 0
+    showFlares: 0
+    showImageEffects: 0
+    showParticleSystems: 0
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 2.730673
+    speed: 2
+    m_Value: 2.730673
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_ShowGlobalGrid: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,7 +343,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 540
+    x: 490
     y: 75
     width: 467
     height: 438
@@ -369,10 +369,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 540
+    x: 202
     y: 75
     width: 467
-    height: 438
+    height: 311
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -393,10 +393,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
+    m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -406,24 +406,24 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 467
-      height: 421
-    m_Scale: {x: 0.24322917, y: 0.24322917}
-    m_Translation: {x: 233.5, y: 210.5}
+      height: 294
+    m_Scale: {x: 0.2790586, y: 0.2790586}
+    m_Translation: {x: 233.49997, y: 147.00005}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -960
-      y: -865.43896
-      width: 1920
-      height: 1730.8779
+      x: -836.7417
+      y: -526.77124
+      width: 1673.4836
+      height: 1053.5421
     m_MinimalGUI: 1
   m_defaultScale: 0.24322917
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 467, y: 438}
+  m_LastWindowPixelSize: {x: 467, y: 311}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000100000100000100
@@ -449,10 +449,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 540
+    x: 202
     y: 75
     width: 467
-    height: 438
+    height: 442
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
@@ -460,6 +460,7 @@ MonoBehaviour:
     - {fileID: 1107995094560945316, guid: 0dc696cd9f37e534eb717be5bb5a018c, type: 2}
     - {fileID: 1107594475785575710, guid: e787f62a6b86b7542b6ededce1fbbec6, type: 2}
     - {fileID: 1107563302775030670, guid: 7a7f7fa4b74afb240b7ac3d3114776bd, type: 2}
+    - {fileID: 1107356034364567156, guid: e396c3cc7bdda4ea28425bf196c6738f, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.7951654
       e01: 0
@@ -525,11 +526,27 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 0.5327946
+      e01: 0
+      e02: 0
+      e03: 8.607681
+      e10: 0
+      e11: 0.5327946
+      e12: 0
+      e13: 158.25452
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: e787f62a6b86b7542b6ededce1fbbec6,
+  m_AnimatorController: {fileID: 9100000, guid: e396c3cc7bdda4ea28425bf196c6738f,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107594475785575710, guid: e787f62a6b86b7542b6ededce1fbbec6,
+  - m_Target: {fileID: 1107356034364567156, guid: e396c3cc7bdda4ea28425bf196c6738f,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -639,7 +656,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 458
+    y: 462
     width: 471
     height: 274
   m_MinSize: {x: 234, y: 274}
@@ -671,10 +688,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 540
-    y: 533
-    width: 467
-    height: 254
+    x: 306
+    y: 412
+    width: 710
+    height: 448
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &16
 MonoBehaviour:
@@ -697,8 +714,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 490
-    y: 533
+    x: 202
+    y: 537
     width: 467
     height: 254
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -713,7 +730,8 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Sprites
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -725,7 +743,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: a2290000
     m_LastClickedID: 10658
-    m_ExpandedIDs: ffffffff00000000a4260000ee26000072290000662a0000922a00001a2c00001c2c00001e2c0000202c00005e2c0000523300005a330000a2330000c2330000ca3300008a350000
+    m_ExpandedIDs: ffffffff00000000aa2600000227000054290000a62a0000dc2a0000602b00004c2c00004e2c0000502c0000522c0000542c0000782d00007a2d00007c2d00007e2d0000822d0000862d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -750,10 +768,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 120.00061}
-    m_SelectedIDs: fe320000
+    scrollPos: {x: 0, y: 562.0029}
+    m_SelectedIDs: 78eaffff
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000a4260000ee26000072290000662a0000922a00001a2c00001c2c00001e2c0000202c0000
+    m_ExpandedIDs: ffffffff00000000aa2600000227000054290000a62a0000dc2a0000602b00004c2c00004e2c0000502c0000522c0000542c0000782d00007a2d00007c2d00007e2d0000822d0000862d0000962e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -778,8 +796,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: fe320000
-    m_LastClickedInstanceID: 13054
+    m_SelectedInstanceIDs: 78eaffff
+    m_LastClickedInstanceID: -5512
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300008e31000040290000
     m_RenameOverlay:
@@ -826,7 +844,7 @@ MonoBehaviour:
     x: 673
     y: 0
     width: 277
-    height: 732
+    height: 736
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 18}
@@ -835,7 +853,7 @@ MonoBehaviour:
   - {fileID: 19}
   - {fileID: 20}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -857,10 +875,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 961
+    x: 673
     y: 75
     width: 275
-    height: 712
+    height: 716
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -922,7 +940,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1011
+    x: 961
     y: 75
     width: 275
     height: 712
@@ -934,9 +952,9 @@ MonoBehaviour:
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 0
-  changeTab: 6
-  activeTab: 6
+  appManagerProgressHasUpdate: 1
+  changeTab: 4
+  activeTab: 4
   initProjectView:
     hasCompletedInitialCheck: 0
     isUserDataPresent: 0
@@ -989,6 +1007,16 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
+      - path: development
+        label: development
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       - path: elisa_dev
         label: elisa_dev
         level: 1
@@ -1000,9 +1028,9 @@ MonoBehaviour:
         treeIsCheckable: 0
         checkState: 0
       selectedNode:
-        path: 
-        label: 
-        level: 0
+        path: development
+        label: development
+        level: 1
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1066,6 +1094,16 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
+      - path: origin/development
+        label: development
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       - path: origin/emilio_dev
         label: emilio_dev
         level: 2
@@ -1088,6 +1126,16 @@ MonoBehaviour:
         checkState: 0
       - path: origin/marcus_dev
         label: marcus_dev
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/mary_dev
+        label: mary_dev
         level: 2
         isFolder: 0
         isContainer: 0
@@ -1120,17 +1168,17 @@ MonoBehaviour:
     mode: 0
     newBranchName: 
     scroll: {x: 0, y: 0}
-    disableDelete: 1
-    disableCreate: 1
+    disableDelete: 0
+    disableCreate: 0
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2019-04-05T17:29:22.535-04:00
+      updatedTimeString: 2019-04-07T18:31:28.421-04:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2019-04-05T17:27:15.938-04:00
+      updatedTimeString: 2019-04-07T18:25:32.333-04:00
       cacheType: 1
     currentBranch:
       name: elisa_dev
-      tracking: 
+      tracking: origin/elisa_dev
     currentRemote:
       name: origin
       url: https://github.com/TanBeige/FFNewts.git
@@ -1142,14 +1190,20 @@ MonoBehaviour:
     localBranches:
     - name: master
       tracking: origin/master
+    - name: development
+      tracking: origin/development
     - name: elisa_dev
-      tracking: 
+      tracking: origin/elisa_dev
     remoteBranches:
+    - name: origin/development
+      tracking: '[None]'
     - name: origin/emilio_dev
       tracking: '[None]'
     - name: origin/HEAD
       tracking: '[None]'
     - name: origin/marcus_dev
+      tracking: '[None]'
+    - name: origin/mary_dev
       tracking: '[None]'
     - name: origin/tan_dev
       tracking: '[None]'
@@ -3140,6 +3194,469 @@ MonoBehaviour:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 974c1b3617164e24c78fc0148f98187964e8544c
+      mergeA: 
+      mergeB: 
+      authorName: Elisa
+      authorEmail: wheaton-cs@outlook.com
+      commitEmail: wheaton-cs@outlook.com
+      commitName: Elisa
+      summary: supplement
+      description: 'had to commit to allow merging '
+      timeString: 2019-04-05T18:33:26.000-04:00
+      commitTimeString: 2019-04-05T19:02:58.000-04:00
+      changes:
+      - path: Assets/Scenes/Temp Game.unity
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Scenes/Temp
+          Game.unity
+        projectPath: Assets/Scenes/Temp Game.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets/buildings.unity
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/buildings.unity
+        projectPath: Assets/buildings.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library/CurrentLayout.dwlt
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/CurrentLayout.dwlt
+        projectPath: Library/CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library/StateCache/SceneView/3e5723-mainStage.json
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/StateCache/SceneView/3e5723-mainStage.json
+        projectPath: Library/StateCache/SceneView/3e5723-mainStage.json
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library/assetDatabase3
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/assetDatabase3
+        projectPath: Library/assetDatabase3
+        originalPath: 
+        status: 3
+        staged: 0
+    - commitID: 58309aa180c14463d1b401b7b0c6c04632406bf0
+      mergeA: 
+      mergeB: 
+      authorName: Elisa
+      authorEmail: wheaton-cs@outlook.com
+      commitEmail: wheaton-cs@outlook.com
+      commitName: Elisa
+      summary: reimported sprites
+      description: 
+      timeString: 2019-04-05T18:01:01.000-04:00
+      commitTimeString: 2019-04-05T18:01:01.000-04:00
+      changes:
+      - path: Assembly-CSharp.csproj
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assembly-CSharp.csproj
+        projectPath: Assembly-CSharp.csproj
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets/SpriteSheetCreator.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator.meta
+        projectPath: Assets/SpriteSheetCreator.meta
+        originalPath: Assets/Sprites/images/buildings/buildings.tpsheet.meta
+        status: 6
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content.meta
+        projectPath: Assets/SpriteSheetCreator/Content.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Border.png
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Border.png
+        projectPath: Assets/SpriteSheetCreator/Content/Border.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Border.png.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Border.png.meta
+        projectPath: Assets/SpriteSheetCreator/Content/Border.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetMaterial.mat
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/FireParticleFlameSheetMaterial.mat
+        projectPath: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetMaterial.mat
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetMaterial.mat.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/FireParticleFlameSheetMaterial.mat.meta
+        projectPath: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetMaterial.mat.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetTexture.png
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/FireParticleFlameSheetTexture.png
+        projectPath: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetTexture.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetTexture.png.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/FireParticleFlameSheetTexture.png.meta
+        projectPath: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetTexture.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish.meta
+        projectPath: Assets/SpriteSheetCreator/Content/Fish.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/Fish.png
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Fish.png
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/Fish.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/Fish.png.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Fish.png.meta
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/Fish.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/Materials.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials.meta
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/Materials/Eyes_001.mat
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials/Eyes_001.mat
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials/Eyes_001.mat
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/Materials/Eyes_001.mat.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials/Eyes_001.mat.meta
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials/Eyes_001.mat.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish-PL.mat
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials/Fish-PL.mat
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish-PL.mat
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish-PL.mat.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials/Fish-PL.mat.meta
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish-PL.mat.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish.mat
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials/Fish.mat
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish.mat
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish.mat.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials/Fish.mat.meta
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish.mat.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/Swim.anim
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Swim.anim
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/Swim.anim
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/Swim.anim.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Swim.anim.meta
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/Swim.anim.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/scardinius.controller
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/scardinius.controller
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/scardinius.controller
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/scardinius.controller.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/scardinius.controller.meta
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/scardinius.controller.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/scardinius.dae
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/scardinius.dae
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/scardinius.dae
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/Fish/scardinius.dae.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/scardinius.dae.meta
+        projectPath: Assets/SpriteSheetCreator/Content/Fish/scardinius.dae.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.mat
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.mat
+        projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.mat
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.mat.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.mat.meta
+        projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.mat.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.shader
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.shader
+        projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.shader
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.shader.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.shader.meta
+        projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.shader.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.mat
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.mat
+        projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.mat
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.mat.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.mat.meta
+        projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.mat.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.shader
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.shader
+        projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.shader
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.shader.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.shader.meta
+        projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.shader.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorScript.cs
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorScript.cs
+        projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorScript.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorScript.cs.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorScript.cs.meta
+        projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorScript.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/SpriteSheetPlaybackMaterial.mat
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetPlaybackMaterial.mat
+        projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetPlaybackMaterial.mat
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Content/SpriteSheetPlaybackMaterial.mat.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetPlaybackMaterial.mat.meta
+        projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetPlaybackMaterial.mat.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Readme.txt
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Readme.txt
+        projectPath: Assets/SpriteSheetCreator/Readme.txt
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/Readme.txt.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Readme.txt.meta
+        projectPath: Assets/SpriteSheetCreator/Readme.txt.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/SpriteSheet.png
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/SpriteSheet.png
+        projectPath: Assets/SpriteSheetCreator/SpriteSheet.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/SpriteSheet.png.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/SpriteSheet.png.meta
+        projectPath: Assets/SpriteSheetCreator/SpriteSheet.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneAnimator.unity
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/SpriteSheetCreatorSceneAnimator.unity
+        projectPath: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneAnimator.unity
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneAnimator.unity.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/SpriteSheetCreatorSceneAnimator.unity.meta
+        projectPath: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneAnimator.unity.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneGameObject.unity
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/SpriteSheetCreatorSceneGameObject.unity
+        projectPath: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneGameObject.unity
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneGameObject.unity.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/SpriteSheetCreatorSceneGameObject.unity.meta
+        projectPath: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneGameObject.unity.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Sprites/images/buildings/bluebldg.png
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/bluebldg.png
+        projectPath: Assets/Sprites/images/buildings/bluebldg.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Sprites/images/buildings/bluebldg.png.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/bluebldg.png.meta
+        projectPath: Assets/Sprites/images/buildings/bluebldg.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Sprites/images/buildings/buildings.png
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/buildings.png
+        projectPath: Assets/Sprites/images/buildings/buildings.png
+        originalPath: 
+        status: 5
+        staged: 0
+      - path: Assets/Sprites/images/buildings/buildings.png.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/buildings.png.meta
+        projectPath: Assets/Sprites/images/buildings/buildings.png.meta
+        originalPath: 
+        status: 5
+        staged: 0
+      - path: Assets/Sprites/images/buildings/buildings.tpsheet
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/buildings.tpsheet
+        projectPath: Assets/Sprites/images/buildings/buildings.tpsheet
+        originalPath: 
+        status: 5
+        staged: 0
+      - path: Assets/Sprites/images/buildings/burgerburger.png
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/burgerburger.png
+        projectPath: Assets/Sprites/images/buildings/burgerburger.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Sprites/images/buildings/burgerburger.png.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/burgerburger.png.meta
+        projectPath: Assets/Sprites/images/buildings/burgerburger.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Sprites/images/buildings/club.png
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/club.png
+        projectPath: Assets/Sprites/images/buildings/club.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Sprites/images/buildings/club.png.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/club.png.meta
+        projectPath: Assets/Sprites/images/buildings/club.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Sprites/images/buildings/red_apt.png
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/red_apt.png
+        projectPath: Assets/Sprites/images/buildings/red_apt.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Sprites/images/buildings/red_apt.png.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/red_apt.png.meta
+        projectPath: Assets/Sprites/images/buildings/red_apt.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Sprites/images/buildings/red_yellow_bldg.png
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/red_yellow_bldg.png
+        projectPath: Assets/Sprites/images/buildings/red_yellow_bldg.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Sprites/images/buildings/red_yellow_bldg.png.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/red_yellow_bldg.png.meta
+        projectPath: Assets/Sprites/images/buildings/red_yellow_bldg.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Sprites/images/buildings/street.png
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/street.png
+        projectPath: Assets/Sprites/images/buildings/street.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/Sprites/images/buildings/street.png.meta
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/street.png.meta
+        projectPath: Assets/Sprites/images/buildings/street.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets/codeandweb.com/Editor/SettingsTexturePackerImporter.txt
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/codeandweb.com/Editor/SettingsTexturePackerImporter.txt
+        projectPath: Assets/codeandweb.com/Editor/SettingsTexturePackerImporter.txt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library/CurrentMaximizeLayout.dwlt
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/CurrentMaximizeLayout.dwlt
+        projectPath: Library/CurrentMaximizeLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/ScriptAssemblies/Assembly-CSharp.dll
+        projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/ScriptAssemblies/Assembly-CSharp.pdb
+        projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library/ScriptMapper
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/ScriptMapper
+        projectPath: Library/ScriptMapper
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library/StateCache/Hierarchy/25b62a-mainStage.json
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/StateCache/Hierarchy/25b62a-mainStage.json
+        projectPath: Library/StateCache/Hierarchy/25b62a-mainStage.json
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library/TilemapEditorUserSettings.asset
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/TilemapEditorUserSettings.asset
+        projectPath: Library/TilemapEditorUserSettings.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library/assetDatabase3
+        fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/assetDatabase3
+        projectPath: Library/assetDatabase3
+        originalPath: 
+        status: 3
+        staged: 0
     - commitID: 84b8db7f2664c60acacb495bb59e45869c78138a
       mergeA: 
       mergeB: 
@@ -22183,7 +22700,7 @@ MonoBehaviour:
         staged: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2019-04-05T17:29:15.938-04:00
+      updatedTimeString: 2019-04-05T20:01:33.791-04:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
       updatedTimeString: 
@@ -22191,6 +22708,469 @@ MonoBehaviour:
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 974c1b3617164e24c78fc0148f98187964e8544c
+        mergeA: 
+        mergeB: 
+        authorName: Elisa
+        authorEmail: wheaton-cs@outlook.com
+        commitEmail: wheaton-cs@outlook.com
+        commitName: Elisa
+        summary: supplement
+        description: 'had to commit to allow merging '
+        timeString: 2019-04-05T18:33:26.000-04:00
+        commitTimeString: 2019-04-05T19:02:58.000-04:00
+        changes:
+        - path: Assets/Scenes/Temp Game.unity
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Scenes/Temp
+            Game.unity
+          projectPath: Assets/Scenes/Temp Game.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets/buildings.unity
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/buildings.unity
+          projectPath: Assets/buildings.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library/CurrentLayout.dwlt
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/CurrentLayout.dwlt
+          projectPath: Library/CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library/StateCache/SceneView/3e5723-mainStage.json
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/StateCache/SceneView/3e5723-mainStage.json
+          projectPath: Library/StateCache/SceneView/3e5723-mainStage.json
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library/assetDatabase3
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/assetDatabase3
+          projectPath: Library/assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+      - commitID: 58309aa180c14463d1b401b7b0c6c04632406bf0
+        mergeA: 
+        mergeB: 
+        authorName: Elisa
+        authorEmail: wheaton-cs@outlook.com
+        commitEmail: wheaton-cs@outlook.com
+        commitName: Elisa
+        summary: reimported sprites
+        description: 
+        timeString: 2019-04-05T18:01:01.000-04:00
+        commitTimeString: 2019-04-05T18:01:01.000-04:00
+        changes:
+        - path: Assembly-CSharp.csproj
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assembly-CSharp.csproj
+          projectPath: Assembly-CSharp.csproj
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets/SpriteSheetCreator.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator.meta
+          projectPath: Assets/SpriteSheetCreator.meta
+          originalPath: Assets/Sprites/images/buildings/buildings.tpsheet.meta
+          status: 6
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content.meta
+          projectPath: Assets/SpriteSheetCreator/Content.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Border.png
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Border.png
+          projectPath: Assets/SpriteSheetCreator/Content/Border.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Border.png.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Border.png.meta
+          projectPath: Assets/SpriteSheetCreator/Content/Border.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetMaterial.mat
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/FireParticleFlameSheetMaterial.mat
+          projectPath: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetMaterial.mat
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetMaterial.mat.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/FireParticleFlameSheetMaterial.mat.meta
+          projectPath: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetMaterial.mat.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetTexture.png
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/FireParticleFlameSheetTexture.png
+          projectPath: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetTexture.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetTexture.png.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/FireParticleFlameSheetTexture.png.meta
+          projectPath: Assets/SpriteSheetCreator/Content/FireParticleFlameSheetTexture.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish.meta
+          projectPath: Assets/SpriteSheetCreator/Content/Fish.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/Fish.png
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Fish.png
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/Fish.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/Fish.png.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Fish.png.meta
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/Fish.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/Materials.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials.meta
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/Materials/Eyes_001.mat
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials/Eyes_001.mat
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials/Eyes_001.mat
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/Materials/Eyes_001.mat.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials/Eyes_001.mat.meta
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials/Eyes_001.mat.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish-PL.mat
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials/Fish-PL.mat
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish-PL.mat
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish-PL.mat.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials/Fish-PL.mat.meta
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish-PL.mat.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish.mat
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials/Fish.mat
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish.mat
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish.mat.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Materials/Fish.mat.meta
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/Materials/Fish.mat.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/Swim.anim
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Swim.anim
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/Swim.anim
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/Swim.anim.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/Swim.anim.meta
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/Swim.anim.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/scardinius.controller
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/scardinius.controller
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/scardinius.controller
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/scardinius.controller.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/scardinius.controller.meta
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/scardinius.controller.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/scardinius.dae
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/scardinius.dae
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/scardinius.dae
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/Fish/scardinius.dae.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/Fish/scardinius.dae.meta
+          projectPath: Assets/SpriteSheetCreator/Content/Fish/scardinius.dae.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.mat
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.mat
+          projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.mat
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.mat.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.mat.meta
+          projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.mat.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.shader
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.shader
+          projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.shader
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.shader.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.shader.meta
+          projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAdditive.shader.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.mat
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.mat
+          projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.mat
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.mat.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.mat.meta
+          projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.mat.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.shader
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.shader
+          projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.shader
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.shader.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.shader.meta
+          projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorAlphaBlended.shader.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorScript.cs
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorScript.cs
+          projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorScript.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorScript.cs.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetCreatorScript.cs.meta
+          projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetCreatorScript.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/SpriteSheetPlaybackMaterial.mat
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetPlaybackMaterial.mat
+          projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetPlaybackMaterial.mat
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Content/SpriteSheetPlaybackMaterial.mat.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Content/SpriteSheetPlaybackMaterial.mat.meta
+          projectPath: Assets/SpriteSheetCreator/Content/SpriteSheetPlaybackMaterial.mat.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Readme.txt
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Readme.txt
+          projectPath: Assets/SpriteSheetCreator/Readme.txt
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/Readme.txt.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/Readme.txt.meta
+          projectPath: Assets/SpriteSheetCreator/Readme.txt.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/SpriteSheet.png
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/SpriteSheet.png
+          projectPath: Assets/SpriteSheetCreator/SpriteSheet.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/SpriteSheet.png.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/SpriteSheet.png.meta
+          projectPath: Assets/SpriteSheetCreator/SpriteSheet.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneAnimator.unity
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/SpriteSheetCreatorSceneAnimator.unity
+          projectPath: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneAnimator.unity
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneAnimator.unity.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/SpriteSheetCreatorSceneAnimator.unity.meta
+          projectPath: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneAnimator.unity.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneGameObject.unity
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/SpriteSheetCreatorSceneGameObject.unity
+          projectPath: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneGameObject.unity
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneGameObject.unity.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/SpriteSheetCreator/SpriteSheetCreatorSceneGameObject.unity.meta
+          projectPath: Assets/SpriteSheetCreator/SpriteSheetCreatorSceneGameObject.unity.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Sprites/images/buildings/bluebldg.png
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/bluebldg.png
+          projectPath: Assets/Sprites/images/buildings/bluebldg.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Sprites/images/buildings/bluebldg.png.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/bluebldg.png.meta
+          projectPath: Assets/Sprites/images/buildings/bluebldg.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Sprites/images/buildings/buildings.png
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/buildings.png
+          projectPath: Assets/Sprites/images/buildings/buildings.png
+          originalPath: 
+          status: 5
+          staged: 0
+        - path: Assets/Sprites/images/buildings/buildings.png.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/buildings.png.meta
+          projectPath: Assets/Sprites/images/buildings/buildings.png.meta
+          originalPath: 
+          status: 5
+          staged: 0
+        - path: Assets/Sprites/images/buildings/buildings.tpsheet
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/buildings.tpsheet
+          projectPath: Assets/Sprites/images/buildings/buildings.tpsheet
+          originalPath: 
+          status: 5
+          staged: 0
+        - path: Assets/Sprites/images/buildings/burgerburger.png
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/burgerburger.png
+          projectPath: Assets/Sprites/images/buildings/burgerburger.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Sprites/images/buildings/burgerburger.png.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/burgerburger.png.meta
+          projectPath: Assets/Sprites/images/buildings/burgerburger.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Sprites/images/buildings/club.png
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/club.png
+          projectPath: Assets/Sprites/images/buildings/club.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Sprites/images/buildings/club.png.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/club.png.meta
+          projectPath: Assets/Sprites/images/buildings/club.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Sprites/images/buildings/red_apt.png
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/red_apt.png
+          projectPath: Assets/Sprites/images/buildings/red_apt.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Sprites/images/buildings/red_apt.png.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/red_apt.png.meta
+          projectPath: Assets/Sprites/images/buildings/red_apt.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Sprites/images/buildings/red_yellow_bldg.png
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/red_yellow_bldg.png
+          projectPath: Assets/Sprites/images/buildings/red_yellow_bldg.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Sprites/images/buildings/red_yellow_bldg.png.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/red_yellow_bldg.png.meta
+          projectPath: Assets/Sprites/images/buildings/red_yellow_bldg.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Sprites/images/buildings/street.png
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/street.png
+          projectPath: Assets/Sprites/images/buildings/street.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/Sprites/images/buildings/street.png.meta
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/Sprites/images/buildings/street.png.meta
+          projectPath: Assets/Sprites/images/buildings/street.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets/codeandweb.com/Editor/SettingsTexturePackerImporter.txt
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Assets/codeandweb.com/Editor/SettingsTexturePackerImporter.txt
+          projectPath: Assets/codeandweb.com/Editor/SettingsTexturePackerImporter.txt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library/CurrentMaximizeLayout.dwlt
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/CurrentMaximizeLayout.dwlt
+          projectPath: Library/CurrentMaximizeLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/ScriptAssemblies/Assembly-CSharp.dll
+          projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/ScriptAssemblies/Assembly-CSharp.pdb
+          projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library/ScriptMapper
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/ScriptMapper
+          projectPath: Library/ScriptMapper
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library/StateCache/Hierarchy/25b62a-mainStage.json
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/StateCache/Hierarchy/25b62a-mainStage.json
+          projectPath: Library/StateCache/Hierarchy/25b62a-mainStage.json
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library/TilemapEditorUserSettings.asset
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/TilemapEditorUserSettings.asset
+          projectPath: Library/TilemapEditorUserSettings.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library/assetDatabase3
+          fullPath: /Users/elisawheaton/Documents/GitHub/FFNewts/Library/assetDatabase3
+          projectPath: Library/assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
       - commitID: 84b8db7f2664c60acacb495bb59e45869c78138a
         mergeA: 
         mergeB: 
@@ -41316,7 +42296,7 @@ MonoBehaviour:
     currentRemoteHasUpdate: 0
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
-    keychainHasUpdate: 1
+    keychainHasUpdate: 0
     locksControl:
       scroll: {x: 0, y: 0}
       gitLockEntries: []
@@ -41337,11 +42317,11 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2019-04-05T17:27:15.938-04:00
+      updatedTimeString: 2019-04-05T20:00:58.950-04:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2019-04-05T20:01:00.171-04:00
+      cacheType: 7
     lastStatusEntriesChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
@@ -41657,7 +42637,7 @@ MonoBehaviour:
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
-  isTrackingRemoteBranch: 0
+  isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: elisa_dev
     m_Image: {fileID: 0}
@@ -41667,7 +42647,7 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2019-04-05T17:27:15.938-04:00
+    updatedTimeString: 2019-04-05T20:00:58.950-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
     updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -41691,8 +42671,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 1
-  repositoryProgressMessage: Loading the history...
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
   appManagerProgressValue: 0
   appManagerProgressMessage: 
   connections: []
