@@ -27,7 +27,7 @@ public class PlayerController : PhysicsObject
 
         move.x = Input.GetAxis("Horizontal");
 
-        if (move.x >= -0.60f && move.x <= 0.60f) // horizontal movement on axis
+        if (move.x >= -0.70f && move.x <= 0.70f) // horizontal movement on axis. change this for start and stop
             animator.SetBool("isRunning", false);
         else
         {

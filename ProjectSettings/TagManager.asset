@@ -59,3 +59,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: backpack
+    uniqueID: 2725495283
+    locked: 0
