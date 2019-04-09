@@ -56,6 +56,9 @@ TagManager:
   - name: floor
     uniqueID: 3215200087
     locked: 0
+  - name: buildings
+    uniqueID: 1577105377
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

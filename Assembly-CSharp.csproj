@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
@@ -650,6 +651,10 @@
 =======
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\ExitOnClick.cs" />
+=======
+     <Compile Include="Assets\Scripts\FireSpawner.cs" />
+     <Compile Include="Assets\Scripts\InitiateBuildings.cs" />
+>>>>>>> elisa_dev
      <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
      <Compile Include="Assets\Scripts\PhysicsObject.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
