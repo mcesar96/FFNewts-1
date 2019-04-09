@@ -2,7 +2,11 @@ fileFormatVersion: 2
 guid: 99b48d4d4f6a66340ab06bd487d70a45
 folderAsset: yes
 timeCreated: 1493304320
+<<<<<<< HEAD
 licenseType: Store
+=======
+licenseType: Pro
+>>>>>>> elisa_dev
 DefaultImporter:
   userData:
   assetBundleName:
