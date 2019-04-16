@@ -10,6 +10,8 @@ public class PlayerController : PhysicsObject
     private SpriteRenderer spriteRenderer;
     private Animator animator;
 
+    private float screenWidth;
+
     //public Vector2 screenHalfSize; // for boundaries
     //private Rigidbody rb;
 
@@ -17,6 +19,8 @@ public class PlayerController : PhysicsObject
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+
+        screenWidth = Screen.width;
     }
  
 
@@ -26,6 +30,20 @@ public class PlayerController : PhysicsObject
         Vector2 move = Vector2.zero;
 
         move.x = Input.GetAxis("Horizontal");
+
+        int i = 0;
+        while(i < Input.touchCount) //for movement by tapping the side
+        {
+            if (Input.GetTouch (i).position.x > screenWidth / 1.166)    //checks if tapping right side of the screen (the right 1/3 of screen)
+            {
+                move.x = 0.99f;
+            }
+            if (Input.GetTouch(i).position.x < screenWidth / 6)    //same for left
+            {
+                move.x = -0.99f;
+            }
+            i++;
+        }
 
         if (move.x >= -0.30f && move.x <= 0.30f) // horizontal movement on axis. change this for start and stop
             animator.SetBool("isRunning", false);
