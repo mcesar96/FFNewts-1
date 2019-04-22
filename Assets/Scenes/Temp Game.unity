@@ -1862,9 +1862,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buiList:
+  - {fileID: 6524261294606527081, guid: dc978207ff2214fd48a386bbe8d6453a, type: 3}
   - {fileID: 2349441295290506295, guid: 37846c6e3545f4131816fb218f600f17, type: 3}
   - {fileID: 7564956331097251423, guid: a0f9f888bf1ce4d16bc59a066da22a1b, type: 3}
-  - {fileID: 6524261294606527081, guid: dc978207ff2214fd48a386bbe8d6453a, type: 3}
+  - {fileID: 6772684291001252606, guid: 389beb1a9b0274ea0a908efd478f5028, type: 3}
+  - {fileID: 8576159036210040256, guid: a3c261807133143ce8030b25b09494bc, type: 3}
 --- !u!4 &1337646120
 Transform:
   m_ObjectHideFlags: 0
@@ -2398,6 +2400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bManage: {fileID: 1337646119}
+  tempVector: {x: 10, y: 0}
 --- !u!4 &2114562458
 Transform:
   m_ObjectHideFlags: 0
