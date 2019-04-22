@@ -6,11 +6,14 @@ public class PlayerController : PhysicsObject
 {
     public float speed;
     public float maxSpeed = 10;
+    public float touchScreenMoveWidth = 6;
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
 
     private float screenWidth;
+
+
 
     //public Vector2 screenHalfSize; // for boundaries
     //private Rigidbody rb;
@@ -34,11 +37,19 @@ public class PlayerController : PhysicsObject
         int i = 0;
         while(i < Input.touchCount) //for movement by tapping the side
         {
-            if (Input.GetTouch (i).position.x > screenWidth / 1.166)    //checks if tapping right side of the screen (the right 1/3 of screen)
+            /* Dividing width of the screen by variable touchScreenMoveWidth to change the size of the buttons.
+             * EX)  (The larger n is, the less wide the buttons are
+             *  _________________________
+             *  |     |            |     |  Left side is screenWidth/n pixels of the screens width
+             *  |  L  |            |  R  |  Right side is screenWidth/(1 and 1/nth) - example: screenwidth/1.1666 if n = 6
+             *  |     |            |     |  ^This makes it so the right button starts a little before than the right side of the screen
+             *  -------------------------
+            */
+            if (Input.GetTouch (i).position.x > screenWidth / (1 + 1/touchScreenMoveWidth))    //checks for right side
             {
                 move.x = 0.99f;
             }
-            if (Input.GetTouch(i).position.x < screenWidth / 6)    //same for left
+            if (Input.GetTouch(i).position.x < screenWidth / touchScreenMoveWidth)    //check for left side
             {
                 move.x = -0.99f;
             }
