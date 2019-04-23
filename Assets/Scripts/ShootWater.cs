@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ShootWater : MonoBehaviour
 {
+    /*
     public GameObject player;
     ParticleSystem waterParticles;
 
@@ -25,5 +26,5 @@ public class ShootWater : MonoBehaviour
         transform.position = new Vector2(player.transform.position.x, player.transform.position.y);
 
         waterParticles.transform.rotation.x = 
-    }
+    }*/
 }
