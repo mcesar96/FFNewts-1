@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bName: greenbldg
   health: 100
-  rowWindows: 1
-  colWindows: 2
+  numWindows: 2
+  numFires: 0

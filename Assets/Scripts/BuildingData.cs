@@ -7,6 +7,6 @@ public class BuildingData : ScriptableObject
 {
     public string bName;
     public int health;
-    public int rowWindows;
-    public int colWindows;
+    public int numWindows;
+    public int numFires; 
 }

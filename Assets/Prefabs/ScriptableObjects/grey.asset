@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bName: greybldg
   health: 100
-  rowWindows: 2
-  colWindows: 2
+  numWindows: 4
+  numFires: 0
