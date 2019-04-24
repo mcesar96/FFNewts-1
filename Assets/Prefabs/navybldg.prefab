@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &7139123764312815925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6772684291001252606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65452f5db16f3493d97d1e39b33e5dfb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetInfo: {fileID: 11400000, guid: 0e8b5c96b8de64831a55ea5cca676a35, type: 2}
 --- !u!1001 &9036345193771820745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -111,6 +98,12 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4926647263937620238, guid: 37846c6e3545f4131816fb218f600f17,
+        type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 0e8b5c96b8de64831a55ea5cca676a35,
+        type: 2}
     - target: {fileID: 1067470978597762712, guid: 37846c6e3545f4131816fb218f600f17,
         type: 3}
       propertyPath: assetInfo
@@ -119,9 +112,3 @@ PrefabInstance:
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37846c6e3545f4131816fb218f600f17, type: 3}
---- !u!1 &6772684291001252606 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2349441295290506295, guid: 37846c6e3545f4131816fb218f600f17,
-    type: 3}
-  m_PrefabInstance: {fileID: 9036345193771820745}
-  m_PrefabAsset: {fileID: 0}

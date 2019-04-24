@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7068890646701356735}
   - component: {fileID: 5186217594382881920}
-  - component: {fileID: 4926647263937620238}
   m_Layer: 0
   m_Name: greybldg
   m_TagString: Untagged
@@ -67,7 +66,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1577105377
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3c9f64bac1f1e45d5b4fa29391e71c52, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -80,16 +79,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4926647263937620238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2349441295290506295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65452f5db16f3493d97d1e39b33e5dfb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  assetInfo: {fileID: 11400000, guid: 6a22ab8f19b2343a79f4ba64d30aca7c, type: 2}
