@@ -14,6 +14,7 @@ public class InitiateBuildings : MonoBehaviour
     public Vector2 tempVector = new Vector2(13f, 0f); //used to increment between spawn points
     Vector2 fire = new Vector2(-22f, 3f);
     // spawnpoint green = {(-2.75f,-0.75f), (1.3f, -0.75f) };
+    //spawn point grey = 
 
     void Start()
     {
@@ -26,11 +27,11 @@ public class InitiateBuildings : MonoBehaviour
             Bounds bounds = bui.GetComponent<Renderer>().bounds;
             Vector2 fireLoc = bounds.center; //get center of sprite
 
-            for (int j = 0; j < bManage.data[0].numWindows; j++)
+            for (int j = 0; j < bManage.data[curIndex].numWindows; j++)
             {
 
-                fireLoc.x += bManage.data[0].spawnX[j];
-                fireLoc.y += bManage.data[0].spawnY;
+                fireLoc.x += bManage.data[curIndex].spawnX[j];
+                fireLoc.y += bManage.data[curIndex].spawnY;
                 Instantiate(bManage.fires[0], fireLoc, Quaternion.identity);
                 fireLoc = bounds.center; 
             }
