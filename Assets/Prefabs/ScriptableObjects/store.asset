@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bName: storebldg
   health: 100
-  numWindows: 5
+  numWindows: 2
   numFires: 0
+  spawnFirePoints: []

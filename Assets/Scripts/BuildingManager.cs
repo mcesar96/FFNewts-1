@@ -7,4 +7,5 @@ using System.Collections.Generic;
 public class BuildingManager : MonoBehaviour
 {
     public List<GameObject> buiList;
+    public List<GameObject> fires;
 }

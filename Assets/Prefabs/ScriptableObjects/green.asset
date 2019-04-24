@@ -16,3 +16,5 @@ MonoBehaviour:
   health: 100
   numWindows: 2
   numFires: 0
+  spawnFirePoints:
+  - 0

@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bName: greybldg
   health: 100
-  numWindows: 4
+  numWindows: 2
   numFires: 0
+  spawnFirePoints: []
