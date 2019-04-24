@@ -26,7 +26,7 @@ public class InitiateBuildings : MonoBehaviour
             Bounds bounds = bui.GetComponent<Renderer>().bounds;
             Vector2 fireLoc = bounds.center; 
             fireLoc.x -= 2.5f;
-            fireLoc.y += 1f; 
+            fireLoc.y += -0.5f; 
 
             Instantiate(bManage.fires[0], fireLoc, Quaternion.identity);
         }
