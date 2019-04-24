@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bName: purplebldg
   health: 100
-  numWindows: 4
+  numWindows: 3
   numFires: 0
+  spawnFirePoints: []
