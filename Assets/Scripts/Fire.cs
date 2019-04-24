@@ -2,17 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Make seperate Script for Fire Spawner that goes on a building object, this will spawn fires only on the building 
+
 public class Fire : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int health = 100;
 
-    // Update is called once per frame
-    void Update()
+    public void TakeDamage(int damage)
     {
-        
+        health -= damage;
+        if (health <= 0)
+            Destroy(gameObject);        //kills fire
     }
 }
