@@ -8,13 +8,10 @@ using UnityEngine.UI;
 public class InitiateBuildings : MonoBehaviour
 {
 
-    public BuildingManager bManage; // list will be populated in editor with prefabs
+    public BuildingManager bManage; // list will be populated in editor with prefabs and scriptable objects
 
     Vector2 spawnPoint = new Vector2(-20f, 1f); //first spawn point on left side of map
-    public Vector2 tempVector = new Vector2(13f, 0f); //used to increment between spawn points
-    Vector2 fire = new Vector2(-22f, 3f);
-    // spawnpoint green = {(-2.75f,-0.75f), (1.3f, -0.75f) };
-    //spawn point grey = 
+    Vector2 tempVector = new Vector2(10.3f, 0f); //used to increment between spawn points
 
     void Start()
     {
@@ -27,13 +24,20 @@ public class InitiateBuildings : MonoBehaviour
             Bounds bounds = bui.GetComponent<Renderer>().bounds;
             Vector2 fireLoc = bounds.center; //get center of sprite
 
+             
             for (int j = 0; j < bManage.data[curIndex].numWindows; j++)
             {
-
-                fireLoc.x += bManage.data[curIndex].spawnX[j];
+                fireLoc.x += bManage.data[curIndex].spawnX[j]; 
                 fireLoc.y += bManage.data[curIndex].spawnY;
-                Instantiate(bManage.fires[0], fireLoc, Quaternion.identity);
-                fireLoc = bounds.center; 
+
+                int rand = Random.Range(0, 100);
+                if (rand < 75) 
+                {
+                    Instantiate(bManage.fires[0], fireLoc, Quaternion.identity);
+
+                }
+                fireLoc = bounds.center; //reset center for next fire 
+                //else do nothing, fires should spawn 80% of time 
             }
 
 
