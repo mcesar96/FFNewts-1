@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1299254750474144147}
   - component: {fileID: 1299254750474144158}
   - component: {fileID: 402075449579926071}
-  - component: {fileID: 5107886494070911364}
   m_Layer: 4
   m_Name: waterParticleSystem
   m_TagString: Untagged
@@ -3708,11 +3707,11 @@ ParticleSystem:
     radiusScale: 1
     collidesWith:
       serializedVersion: 2
-      m_Bits: 4294967295
+      m_Bits: 2048
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
@@ -4753,19 +4752,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0ad4462ffaa0bc4e929449412dadef7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!58 &5107886494070911364
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1299254750474144146}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.1987893, y: -0.7293409}
-  serializedVersion: 2
-  m_Radius: 1.8269235
