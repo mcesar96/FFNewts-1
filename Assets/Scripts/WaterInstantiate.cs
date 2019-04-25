@@ -2,24 +2,49 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class WaterInstantiate : MonoBehaviour
 {
     public Transform barrel;
-    public Rigidbody2D bullet;
-    public float fireSpeed = 500f;
+    public ParticleSystem waterStream;
 
-    void Update()
+    private ParticleSystem firedStream;
+
+    private int maxSpeed = 100;
+
+    //private Transform player;
+
+    void Start()
+    {
+        barrel = GetComponent<Transform>();
+
+        firedStream = Instantiate(waterStream, barrel.position, Quaternion.identity);
+
+        var particleEmission = firedStream.emission;
+        particleEmission.rateOverTime = 0;
+    }
+
+void Update()
     {
         Fire();
     }
 
     void Fire()
     {
+        var particleEmission = firedStream.emission;
         if (Input.GetButtonDown("Fire1"))
         {
-            var firedBullet = Instantiate(bullet, barrel.position, barrel.rotation);
-            firedBullet.AddForce(barrel.up * fireSpeed);
+            //firedStream = Instantiate(waterStream, barrel.position, Quaternion.identity);   //Creates particle system
 
+            transform.position = new Vector2(barrel.transform.position.x, barrel.transform.position.y);
+
+            particleEmission.rateOverTime = 90;
+
+
+        }
+        else if(Input.GetButtonUp("Fire1"))
+        {
+            //Destroy(firedStream);
+            particleEmission.rateOverTime = 0;
         }
     }
     /*
