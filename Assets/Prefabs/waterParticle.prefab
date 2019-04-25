@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 2223124155579459763}
   - component: {fileID: 6417211759831617029}
   - component: {fileID: 9194944896992460286}
-  - component: {fileID: 4386677627899845147}
   m_Layer: 4
   m_Name: waterParticle
   m_TagString: Untagged
@@ -194,15 +193,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyTime: 1.2
---- !u!114 &4386677627899845147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5054617038634358629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dac127db6924fb4d9e863a9c8bbfadf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
