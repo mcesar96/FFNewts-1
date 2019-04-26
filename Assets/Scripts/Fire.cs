@@ -12,6 +12,9 @@ public class Fire : MonoBehaviour
     {
         health -= damage;
         if (health <= 0)
-            Destroy(gameObject);        //kills fire
+        {
+            ScoreScript.scoreVal += 100;    //score counter!
+            Destroy(gameObject);            //kills fire
+        }
     }
 }
