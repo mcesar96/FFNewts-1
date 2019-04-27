@@ -13,10 +13,10 @@ TagManager:
   - UI
   - 
   - 
+  - Buildings
   - Floor
   - Player
-  - 
-  - 
+  - Fire
   - 
   - 
   - 
@@ -58,6 +58,9 @@ TagManager:
     locked: 0
   - name: buildings
     uniqueID: 1577105377
+    locked: 0
+  - name: Fire
+    uniqueID: 3383515223
     locked: 0
   - name: Default
     uniqueID: 0
