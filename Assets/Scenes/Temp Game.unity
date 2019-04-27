@@ -679,7 +679,6 @@ GameObject:
   - component: {fileID: 338945454}
   - component: {fileID: 338945452}
   - component: {fileID: 338945455}
-  - component: {fileID: 338945456}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -845,20 +844,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90af17047fbc56d47a97b00f982275f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &338945456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 338945448}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f93e7bf06042ce24eb3ecd57f6f71404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  hose: {fileID: 1173233884}
 --- !u!1 &406724239
 GameObject:
   m_ObjectHideFlags: 0
@@ -6670,12 +6655,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1173233883}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 628e131ba5b0f514da43bbadff62d033, type: 3}
+  m_Script: {fileID: 11500000, guid: 28a9231e418354747ae7c48fa345aefa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  barrel: {fileID: 1579523944}
-  bullet: {fileID: 6832827011118778738, guid: d6e9b9a76af0b7145bbe343e14fdaaf2, type: 3}
-  fireSpeed: 500
+  barrel: {fileID: 1173233884}
+  waterStream: {fileID: 1299254750474144144, guid: 18fa318e771e4234d9dcea6c22371679,
+    type: 3}
 --- !u!1 &1221443432
 GameObject:
   m_ObjectHideFlags: 0
