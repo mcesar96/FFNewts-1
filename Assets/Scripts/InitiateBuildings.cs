@@ -13,8 +13,6 @@ public class InitiateBuildings : MonoBehaviour
     Vector2 spawnPoint = new Vector2(-20f, 1f); //first spawn point on left side of map
     Vector2 tempVector = new Vector2(10.3f, 0f); //used to increment between spawn points
 
-    public int numFires = 0; 
-
     void Start()
     {
         for (int i = 0; i < 5; i++) //only about 5 buildings fit on the map
@@ -36,7 +34,6 @@ public class InitiateBuildings : MonoBehaviour
                 if (rand < 75) 
                 {
                     Instantiate(bManage.fires[0], fireLoc, Quaternion.identity);
-                    numFires++; 
 
                 }
                 fireLoc = bounds.center; //reset center for next fire 
@@ -45,10 +42,5 @@ public class InitiateBuildings : MonoBehaviour
 
 
         }
-    }
-    private void Update()
-    {
-        //if(numFires == 0)
-        //call end game scene 
     }
 }
