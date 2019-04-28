@@ -21,14 +21,14 @@ public class Blast : MonoBehaviour
     {
         Debug.Log("Kill me");
 
-
+        int rand = Random.Range(1, 10);
         Rigidbody rb = fireHit.GetComponent<Rigidbody>();
         fire = fireHit.GetComponent<Fire>();
 
         //if (rb)
         //{
             //if (fire != null)
-            fire.TakeDamage(1);
+            fire.TakeDamage(rand);
             Debug.Log("Hit");
         //}
 
