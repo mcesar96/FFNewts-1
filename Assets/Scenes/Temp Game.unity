@@ -843,7 +843,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90af17047fbc56d47a97b00f982275f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!1 &352061949
+=======
+--- !u!1 &354436524
+>>>>>>> buildings
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -851,27 +855,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 352061950}
   - component: {fileID: 352061952}
   - component: {fileID: 352061951}
   m_Layer: 5
   m_Name: Text
+=======
+  - component: {fileID: 354436525}
+  - component: {fileID: 354436528}
+  - component: {fileID: 354436527}
+  - component: {fileID: 354436526}
+  m_Layer: 5
+  m_Name: TimerText
+>>>>>>> buildings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!224 &352061950
+=======
+--- !u!224 &354436525
+>>>>>>> buildings
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 352061949}
+=======
+  m_GameObject: {fileID: 354436524}
+>>>>>>> buildings
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD
   m_Father: {fileID: 1394914944}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -881,19 +903,52 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &352061951
+=======
+  m_Father: {fileID: 1855044504}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -700, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &354436526
+>>>>>>> buildings
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 352061949}
+=======
+  m_GameObject: {fileID: 354436524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2c8e21a35c254fcd88b043697ec629e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTime: 0
+  timer: {fileID: 0}
+--- !u!114 &354436527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354436524}
+>>>>>>> buildings
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_Color: {r: 0.68235296, g: 0.8705883, b: 0.7960785, a: 1}
+=======
+  m_Color: {r: 0, g: 0.55940914, b: 1, a: 1}
+>>>>>>> buildings
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -902,6 +957,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -915,12 +971,31 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: Pause
 --- !u!222 &352061952
+=======
+    m_FontSize: 50
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Time
+--- !u!222 &354436528
+>>>>>>> buildings
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 352061949}
+=======
+  m_GameObject: {fileID: 354436524}
+>>>>>>> buildings
   m_CullTransparentMesh: 0
 --- !u!1 &406724239
 GameObject:
@@ -7473,7 +7548,11 @@ RectTransform:
   - {fileID: 442100734}
   - {fileID: 1877969247}
   - {fileID: 1396836274}
+<<<<<<< HEAD
   - {fileID: 1394914944}
+=======
+  - {fileID: 354436525}
+>>>>>>> buildings
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
