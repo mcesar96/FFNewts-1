@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1299254750474144147}
   - component: {fileID: 1299254750474144158}
   - component: {fileID: 402075449579926071}
-  m_Layer: 4
+  m_Layer: 12
   m_Name: waterParticleSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3546,7 +3546,7 @@ ParticleSystem:
     m_Dampen:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.67
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -3652,7 +3652,7 @@ ParticleSystem:
     m_EnergyLossOnCollision:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.13
       minScalar: 0
       maxCurve:
         serializedVersion: 2

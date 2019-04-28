@@ -17,7 +17,7 @@ TagManager:
   - Floor
   - Player
   - Fire
-  - 
+  - waterParticles
   - 
   - 
   - 
@@ -76,4 +76,7 @@ TagManager:
     locked: 0
   - name: sidewall
     uniqueID: 3142678029
+    locked: 0
+  - name: waterParticles
+    uniqueID: 2506491237
     locked: 0
