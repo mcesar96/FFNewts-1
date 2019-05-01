@@ -13,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
+  - Buildings
   - Floor
   - Player
-  - 
-  - 
-  - 
+  - Fire
+  - waterParticles
   - 
   - 
   - 
@@ -59,9 +59,24 @@ TagManager:
   - name: buildings
     uniqueID: 1577105377
     locked: 0
+  - name: Fire
+    uniqueID: 3383515223
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: backpack
     uniqueID: 2725495283
+    locked: 0
+  - name: mountains
+    uniqueID: 2646406663
+    locked: 0
+  - name: field
+    uniqueID: 1648709365
+    locked: 0
+  - name: sidewall
+    uniqueID: 3142678029
+    locked: 0
+  - name: waterParticles
+    uniqueID: 2506491237
     locked: 0

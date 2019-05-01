@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Weapons : MonoBehaviour
 {
+    
     [SerializeField]
     GameObject bullet;
 
@@ -30,4 +31,5 @@ public class Weapons : MonoBehaviour
             nextFire = Time.time + fireRate;
         }
     }
+    
 }
